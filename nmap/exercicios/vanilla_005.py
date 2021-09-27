@@ -7,7 +7,7 @@ msg1 = colored('+', 'green', attrs=['blink'])
 msg2 = colored('+', 'cyan')
 nmap_start= datetime.now()
 
-target = '11.11.11.171'
+target = '11.11.11.4'
 
 pynmap = nmap3.NmapScanTechniques()
 vanilla = pynmap.nmap_tcp_scan(target)
